@@ -8,8 +8,13 @@ let num3: number = 12;
 let num4: number = 32;
 let template: number;
 
-template = num3
-num3 = num4
-num4 = template
+template = num3;
+num3 = num4;
+num4 = template;
 
-console.log(`\ntemplate:${template}\nnum3:${num3}\n,num4:${num4}`)
+console.log(`\ntemplate:${template}\nnum3:${num3}\nnum4:${num4}`);
+
+let u: undefined = undefined;
+let n: null = null;
+
+console.log(`\nn:${n}\nu:${u}`);
