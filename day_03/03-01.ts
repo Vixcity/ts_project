@@ -11,7 +11,7 @@ console.log('1'+2) // 12
 
 // 循环语句
 // 重复做某件事情
-for ( let i = 0; i < 3; i++) {
+for ( let i:number = 0; i < 3; i++) {
     console.log('北冥有鱼，其名为鲲，鲲之大，一锅装不下')
 }
 
