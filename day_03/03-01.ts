@@ -16,3 +16,10 @@ for ( let i:number = 0; i < 3; i++) {
 }
 
 // 循环语句可以帮我们重复的做某件事情
+
+// 计算 1-100 之间所有整数的和
+let sum: number = 0;
+for(let i: number = 1; i <= 100; i++){
+    sum += i
+}
+console.log(sum);
