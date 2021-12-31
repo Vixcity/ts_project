@@ -8,3 +8,11 @@ console.log('周杰'+'伦')
 console.log(1+2)   // 3
 console.log(1+'2') // 12
 console.log('1'+2) // 12
+
+// 循环语句
+// 重复做某件事情
+for ( let i = 0; i < 3; i++) {
+    console.log('北冥有鱼，其名为鲲，鲲之大，一锅装不下')
+}
+
+// 循环语句可以帮我们重复的做某件事情
