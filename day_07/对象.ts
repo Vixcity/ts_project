@@ -25,3 +25,17 @@ let p3:{
         return sum1+sum2
     }
 }
+
+interface PersonObj {
+    name:string,
+    age:number,
+    height:number,
+    weight:number
+}
+
+let person11 : PersonObj = {
+    name:"11",
+    age:20,
+    weight:70,
+    height:180
+}
