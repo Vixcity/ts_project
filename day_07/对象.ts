@@ -39,3 +39,23 @@ let person11 : PersonObj = {
     weight:70,
     height:180
 }
+
+//  数组对象
+// push , foreach , some
+let arr:string[] = ['asd','222','333','444']
+
+let obj :PersonObj[] = [{
+    name:"11",
+    age:20,
+    weight:70,
+    height:180
+}]
+
+// 不需要为实参进行类型注解
+let nums:number[] = [1,2,3,5,4,8,6,12,354,68,4,68,34,4783]
+nums.some(function (num:number) {
+    if(num>10){
+        return true
+    }
+    return false
+})
