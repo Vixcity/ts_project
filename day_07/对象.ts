@@ -59,3 +59,6 @@ nums.some(function (num:number) {
     }
     return false
 })
+
+// let age = 18
+// age = '1'
